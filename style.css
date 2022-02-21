@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+
+@media screen and (max-width: 480px) {
+    
+    body {
+        max-width: 480px;
+        font-size: 0.8em;
+    }
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    background-attachment: fixed;
+}
+:root {
+    --cor1: #000000;    
+    --cor2: #06004D;
+
+    --font-principal: 'Yanone Kaffeesatz', 'sans-serif'; 
+}
+body {
+    font-family: var(--font-principal);
+    background-image: linear-gradient(to top, var(--cor2), var(--cor1));
+    color: white;
+}
+header {
+    background-image: linear-gradient(to right, #040038d7, transparent);
+    min-height: 80px;
+    padding: 40px;
+}
+header > h1 {
+    color: white;
+}
+header > h2 {
+    color: white;
+}
+.texto > p {
+    color: white;
+    padding: 10px;
+    margin: 12px;
+    font-size: 1.2em;
+
+}
+.link {
+    border-color: white;
+    border-style: solid;
+    display: inline;
+}
+.link:hover {
+    background-color: rgba(255, 255, 255, 0.164);
+    transition: 0.3s;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+main {
+    padding: 20px;
+    min-width: 300px;
+    max-width: 1000px;
+}
+section {
+    display: inline-block;
+}
+.conteudo {
+    display: table;
+}
+.imagem {
+    display: table-cell;
+    float: left;
+    text-indent: 32px;
+    margin: auto;
+}
+.texto {
+    display: table-cell;
+    float: left;
+}
+.conteudo2 {
+    display: table;
+}
+.imagem2 {
+    display: table-cell;
+    float: left;
+    text-indent: 32px;
+    margin: auto;
+}
+.texto2 {
+    display: table-cell;
+    float: left;
+}
+.texto2 > p {
+    padding: 10px;
+    margin: 12px;
+    font-size: 1.2em;
+}
+.link2:hover {
+    background-color: rgba(255, 255, 255, 0.164);
+    transition: 0.3s;
+}
+.link2 {
+    border-color: white;
+    border-style: solid;
+    display: inline;
+}
+.container {
+    width: 471px;
+    margin: auto;
+}
+.c3 {
+    margin: 30px 0px 0px 0px;
+    display: table;
+}
+.img3 {
+    display: table-cell;
+    float: left;
+    text-indent: 25px;
+}
+.txt3 {
+    display: table-cell;
+    float: left;
+}
+.txt3 > p {
+    padding: 10px;
+    margin: 12px;
+    font-size: 1.2em;
+}
+.c4 {
+    display: table;
+}
+.img4 {
+    display: table-cell;
+    float: left;
+    text-indent: 23px;
+}
+.txt4 {
+    display: table-cell;
+    float: left;
+}
+.txt4 > p {
+    padding: 10px;
+    margin: 12px;
+    font-size: 1.2em;
+}
+.l3 {
+    border-color: white;
+    border-style: solid;
+    display: inline;
+}
+.l3:hover {
+    background-color: rgba(255, 255, 255, 0.164);
+    transition: 0.3s;
+}
+.l4 {
+    border-color: white;
+    border-style: solid;
+    display: inline;
+}
+.l4:hover {
+    background-color: rgba(255, 255, 255, 0.164);
+    transition: 0.3s;
+}
+footer {
+    font-style: italic;
+    text-align: center;
+    border-color: rgba(0, 0, 112, 0.692);
+    border-style: solid;
+    padding: 4px;
+}
